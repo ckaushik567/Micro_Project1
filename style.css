@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgba(255, 205, 158, 1)
+}
+.commoncontainer{
+    max-width: 1140px;
+    margin-inline: auto;
+    padding-inline: auto;
+}
+.imag-section img{
+    width: 580px;
+}
+.others-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading{
+    font-size: 18px;
+    font-family: "Inter",sans-serif;
+    line-height: 55px;
+    font-weight: 700;
+}
+.para{
+    font-family: "Inter",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    color: rgba(72, 72, 72, 1);
+    margin-top: 20px;
+    width: 490px;
+}
+.smalltext{
+    font-family: "Inter",sans-serif;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 800;
+    color: rgba(40, 40, 40, 1);
+    
+}
+.inpubuttn{
+    margin-top: 45px;
+     display: flex;
+     flex-direction: column;
+      align-items: center;
+}
+.inputtext{
+    padding: 20px;
+    width: 344px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+::placeholder {
+    font-size: 20px;
+    color: rgba(136, 136, 136, 1);
+  }
+
+.btn{
+    font-family: "Inter",sans-serif;
+    padding: 18px;
+    width: 210px;
+    color: white;
+    background-color:rgba(40, 40, 40, 1);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.smallpara{
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.footer-section{
+    background-color: rgba(40, 40, 40, 1);
+}
+ul li{
+    list-style-type: none;
+    line-height: 35px;
+}
+.first-section{
+    color: white;
+    margin: 50px;
+    font-size: 20px;
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+}
+.second-section{
+    color: white;
+    margin: 55px;
+    font-family: "Inter",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.other-properies{
+    display: flex;
+    justify-content: space-between;
+}
+.second-section ul li{
+    display: flex;
+    justify-content: end;
+}
+#space-style{
+    margin-top: 40px;
+}
+#extra-space{
+    margin-left: 10px;
+}
+.extra-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
